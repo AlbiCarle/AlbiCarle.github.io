@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Alberto Carlevaro Resume
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Alberto Carlevaro
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Alberto
+last_name: Carlevaro
 
 # Status emoji
 status:
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Aitek S.p.A.
+    url: https://www.aitek.it/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -47,17 +47,20 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Machine Learning 🤖
+  - Deep Learning 🧠
+  - Statistical Learning 📊
+  - Explainable AI 💡
+  - Scouting 🏕️
+  - Swimming 🏊
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Laurea Magistrale in Matematica
+    institution: Università degli Studi di Genova
+    date_start: 2017-11-01
+    date_end: 2019-10-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+       Graduated cum laude 🎓 with a thesis on the behavior of liquid crystals under electromagnetic fields.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
