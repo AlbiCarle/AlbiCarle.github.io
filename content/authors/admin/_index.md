@@ -53,6 +53,7 @@ interests:
   - Explainable AI 💡
   - Scouting 🏕️
   - Swimming 🏊
+  - I don't know
 
 education:
   - area: Laurea Magistrale in Matematica
