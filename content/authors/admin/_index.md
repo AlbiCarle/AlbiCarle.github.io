@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Alberto Carlevaro Resume Prova
+title: Alberto Carlevaro 
 
 # Name pronunciation (optional)
-name_pronunciation: Alberto Carlevaro
+#name_pronunciation: Alberto Carlevaro
 
 # Full name (for SEO)
 first_name: Alberto
@@ -20,12 +20,14 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Researcher
-
+role: R&D Project Manager and Researcher in Trustworthy AI
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Aitek S.p.A.
     url: https://www.aitek.it/
+  - name: CNR-IEIIT
+    url: https://www.ieiit.cnr.it/it/
+        
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
