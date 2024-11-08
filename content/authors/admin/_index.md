@@ -35,18 +35,21 @@ profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: fas/file-alt
+    url: /workspaces/iamalbertocarlevaro/static/uploads/resume.pdf
+    label: CV
+  #- icon: brands/x
+  #  url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/AlbiCarle
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/alberto-carlevaro-80a2761a7/?originalSubdomain=it
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=R5q17HMAAAAJ&hl=it&oi=ao
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-7206-5511
 
 interests:
   - Machine Learning 🤖
