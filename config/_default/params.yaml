@@ -5,12 +5,12 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: emerald
+  #mode: system
+  #color: emerald
   #theme_default: dark
-  font: Minimal
-  theme_day: Apogee
-  theme_night: Apogee
+  theme_day: dark
+  theme_night: dark
+  font: minimal
 
 # SEO
 marketing:
@@ -59,6 +59,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
