@@ -8,6 +8,9 @@ appearance:
   mode: system
   color: emerald
   #theme_default: dark
+  font: Minimal
+  theme_day: Apogee
+  theme_night: Apogee
 
 # SEO
 marketing:
