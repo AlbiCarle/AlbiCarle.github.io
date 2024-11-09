@@ -35,9 +35,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
     label: E-mail Me
-  - icon: fas/file-alt
-    url: /workspaces/iamalbertocarlevaro/static/uploads/resume.pdf
-    label: CV
   #- icon: brands/x
   #  url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
