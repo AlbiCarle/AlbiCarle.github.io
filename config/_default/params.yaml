@@ -5,12 +5,11 @@
 
 # Appearance
 appearance:
-  #mode: system
-  #color: emerald
+  mode: system
+  color: emerald
   #theme_default: dark
-  theme_day: dark
-  theme_night: dark
-  font: minimal
+  #theme_day: minimal
+  #theme_night: minimal
 
 # SEO
 marketing:
