@@ -47,6 +47,9 @@ profiles:
     url: https://scholar.google.com/citations?user=R5q17HMAAAAJ&hl=it&oi=ao
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-7206-5511
+  - icon: file-alt  # Replace with a suitable icon name or path to your custom icon
+    url: uploads/resume.pdf
+    label: Download CV
 
 #interests:
 #  - Machine Learning 🤖
@@ -71,24 +74,24 @@ profiles:
 #   institution: Massachusetts Institute of Technology
 #    date_start: 2016-01-01
 #    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+#    summary: |
+#      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      Courses included:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - area: BSc Artificial Intelligence
+#    institution: Massachusetts Institute of Technology
+#    date_start: 2016-01-01
+#    date_end: 2020-12-31
+#    summary: |
+#      GPA: 3.4/4.0
+#      
+#      Courses included:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
