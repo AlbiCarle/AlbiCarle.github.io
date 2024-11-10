@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: /workspaces/iamalbertocarlevaro/assets/css/themes/rose.css #emerald
   #theme_default: dark
   #theme_day: minimal
   #theme_night: minimal
