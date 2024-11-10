@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: dark #emerald
   #theme_default: dark
   #theme_day: minimal
   #theme_night: minimal
