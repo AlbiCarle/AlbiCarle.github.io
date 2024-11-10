@@ -23,7 +23,8 @@ sections:
       background:
         color: black
         text:
-          color: blue  # Set text color to black
+          color: "#FF5733"  # Set text color to black
+          font_weight: bold
         image:
           # Add your image background to `assets/media/`.
           filename: IMG_8704.jpeg #stacked-peaks.svg
