@@ -48,29 +48,29 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-7206-5511
 
-interests:
-  - Machine Learning 🤖
-  - Deep Learning 🧠
-  - Statistical Learning 📊
-  - Explainable AI 💡
-  - Scouting 🏕️
-  - Swimming 🏊
-  - I don't know
+#interests:
+#  - Machine Learning 🤖
+#  - Deep Learning 🧠
+#  - Statistical Learning 📊
+#  - Explainable AI 💡
+#  - Scouting 🏕️
+#  - Swimming 🏊
+#  - I don't know
 
-education:
-  - area: Laurea Magistrale in Matematica
-    institution: Università degli Studi di Genova
-    date_start: 2017-11-01
-    date_end: 2019-10-31
-    summary: |
-       Graduated cum laude 🎓 with a thesis on the behavior of liquid crystals under electromagnetic fields.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+# education:
+#  - area: Laurea Magistrale in Matematica
+#    institution: Università degli Studi di Genova
+#    date_start: 2017-11-01
+#    date_end: 2019-10-31
+#    summary: |
+#      Graduated cum laude 🎓 with a thesis on the behavior of liquid crystals under electromagnetic fields.
+#   button:
+#     text: 'Read Thesis'
+#     url: 'https://example.com'
+# - area: MEng Artificial Intelligence
+#   institution: Massachusetts Institute of Technology
+#    date_start: 2016-01-01
+#    date_end: 2020-12-31
     summary: |
       GPA: 3.8/4.0
 

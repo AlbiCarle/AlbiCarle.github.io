@@ -21,7 +21,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        color: white
       #text:
       #  color: black  # Set text color to black
         image:
