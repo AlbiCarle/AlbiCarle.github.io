@@ -21,7 +21,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        color: light #black
         image:
           # Add your image background to `assets/media/`.
           filename: IMG_8704.jpeg #stacked-peaks.svg
@@ -120,6 +120,6 @@ sections:
     design:
       card:
         # Card background color (CSS class)
-        css_class: "bg-blue-700" #"bg-primary-700"
+        css_class: "bg-primary-700"
         css_style: ""
 ---
