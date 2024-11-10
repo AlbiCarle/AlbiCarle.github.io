@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: forest
+  color: red
   #theme_default: dark
   #theme_day: minimal
   #theme_night: minimal
