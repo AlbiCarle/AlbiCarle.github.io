@@ -67,7 +67,3 @@ features:
 extensions:
   academicons:
     enable: true
-
-params:
-  assets:
-    custom_css: ["css/custom.css"]
