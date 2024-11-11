@@ -25,7 +25,7 @@ highlight_name: true
 role: "<strong style='color:black; font-size: 1.5em;'>R&D Project Manager<br>and<br>AI Researcher</strong>"
  #R&D Project Manager and Researcher in Trustworthy AI
 # Organizations/Affiliations to display in Biography blox
-#organizations:
+organizations:
   - name: Aitek S.p.A.
     url: https://www.aitek.it/en/
   - name: CNR-IEIIT
