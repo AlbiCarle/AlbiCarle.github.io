@@ -2,6 +2,8 @@
 # Display name
 title: Welcome to my 
 
+# Ricordati che se vuoi mettere un avatar come immagine del profile bastare aggiumgere un crop quadrato nella cartella admin salvato come avatar.jpg
+
 # Name pronunciation (optional)
 #name_pronunciation: Alberto Carlevaro
 
