@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: R&D Project Manager and Researcher in Trustworthy AI
+role:  "<strong style='color:blue;'>R&D Project Manager and Researcher in Trustworthy AI</strong>" #R&D Project Manager and Researcher in Trustworthy AI
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Aitek S.p.A.
