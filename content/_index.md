@@ -12,21 +12,21 @@ sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      #username: admin
-      #text: ""
+      username: admin
+      text: ""
       # Show a call-to-action button under your biography? (optional)
       #button:
       #  text: Download CV
       #  url: uploads/resume.pdf
     design:
-      css_class: light
+      css_class: dark
       background:
-        color: white
+        color: black
         text:
           color: black  # Set text color to black
         image:
           # Add your image background to `assets/media/`.
-          filename: IMG_8704.jpeg #stacked-peaks.svg
+          filename: IMG_8268.jpeg #stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
