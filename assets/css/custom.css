@@ -1,0 +1,6 @@
+.transparent-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity (0.5) as needed */
+    padding: 1rem; /* Adjust padding as needed */
+    border-radius: 8px; /* Optional: rounds the corners */
+  }
+  

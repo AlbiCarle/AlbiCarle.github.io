@@ -7,7 +7,7 @@
 appearance:
   mode: system
   color: emerald
-  theme_default: light
+  #theme_default: light
   #theme_default: dark
   #theme_day: minimal
   #theme_night: minimal
@@ -67,3 +67,7 @@ features:
 extensions:
   academicons:
     enable: true
+
+params:
+  assets:
+    custom_css: ["css/custom.css"]
