@@ -20,13 +20,13 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: "<strong style='color:#0073e6; font-size: 1.2em;'>R&D Project Manager and Researcher in Trustworthy AI</strong>"
+role: "<strong style='color:black; font-size: 1.2em;'>R&D Project Manager and Researcher in Trustworthy AI</strong>"
  #R&D Project Manager and Researcher in Trustworthy AI
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Aitek S.p.A.
+  - name: "<strong style='color:black; font-size: 1.2em;'>Aitek S.p.A.</strong>" #Aitek S.p.A.
     url: https://www.aitek.it/
-  - name: CNR-IEIIT
+  - name: "<strong style='color:black; font-size: 1.2em;'>CNR-IEIIT</strong>"
     url: https://www.ieiit.cnr.it/it/
         
 
