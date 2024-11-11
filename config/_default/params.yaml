@@ -38,7 +38,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: none #"Alberto Carlevaro"
+      text: "Alberto Carlevaro"
 
 # Site footer
 footer:

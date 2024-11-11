@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: "<strong style='color:black; font-size: 1.2em;'>R&D Project Manager<br>and<br>Researcher in Trustworthy AI</strong>"
+role: "<strong style='color:black; font-size: 1.2em;'>R&D Project Manager<br>and<br>AI Researcher</strong>"
  #R&D Project Manager and Researcher in Trustworthy AI
 # Organizations/Affiliations to display in Biography blox
 organizations:
