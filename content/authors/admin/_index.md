@@ -1,6 +1,7 @@
 ---
 # Display name
-title: Alberto Carlevaro 
+title: "<strong style='color:#66B2FF;'>Alberto Carlevaro</strong>"
+#title: Alberto Carlevaro 
 
 # Name pronunciation (optional)
 #name_pronunciation: Alberto Carlevaro
@@ -20,7 +21,8 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role:  "<strong style='color:blue;'>R&D Project Manager and Researcher in Trustworthy AI</strong>" #R&D Project Manager and Researcher in Trustworthy AI
+role:  role: "<strong style='color:#3399FF;'>R&D Project Manager and Researcher in Trustworthy AI</strong>"
+ #R&D Project Manager and Researcher in Trustworthy AI
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Aitek S.p.A.
