@@ -1,7 +1,6 @@
 ---
 # Display name
-title: "<strong style='color:#66B2FF;'>Alberto Carlevaro</strong>"
-#title: Alberto Carlevaro 
+title: Alberto Carlevaro 
 
 # Name pronunciation (optional)
 #name_pronunciation: Alberto Carlevaro
