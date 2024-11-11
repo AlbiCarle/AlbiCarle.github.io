@@ -1,0 +1,13 @@
+.title-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .title-container h1 {
+    color: white;
+    font-size: 2em;
+    margin: 0;
+  }
+  
