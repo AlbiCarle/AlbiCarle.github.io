@@ -21,9 +21,9 @@ sections:
     design:
       css_class: dark
       background:
-        color: white
-      text:
-        color: black  # Set text color to black
+        color: black
+      #text:
+      #  color: black  # Set text color to black
         image:
           # Add your image background to `assets/media/`.
           filename: IMG_8704.jpeg #stacked-peaks.svg
