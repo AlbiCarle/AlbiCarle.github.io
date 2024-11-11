@@ -2,11 +2,6 @@
 # Display name
 title: Alberto Carlevaro
 
-<div style="background-color: rgba(255, 255, 255, 0.5); padding: 10px; border-radius: 5px;">
-  <!-- Content to be wrapped in the transparent container -->
-  R&D Project Manager and AI Researcher at Aitek S.p.A. and CNR-IEIIT.
-</div>
-
 # Ricordati che se vuoi mettere un avatar come immagine del profile bastare aggiumgere un crop quadrato nella cartella admin salvato come avatar.jpg
 
 # Name pronunciation (optional)
