@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alberto Carlevaro 
+title: Welcome to my 
 
 # Name pronunciation (optional)
 #name_pronunciation: Alberto Carlevaro
@@ -20,14 +20,14 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: "<strong style='color:black; font-size: 1.5em;'>R&D Project Manager<br>and<br>AI Researcher</strong>"
+#role: "<strong style='color:black; font-size: 1.5em;'>R&D Project Manager<br>and<br>AI Researcher</strong>"
  #R&D Project Manager and Researcher in Trustworthy AI
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: Aitek S.p.A.
-    url: https://www.aitek.it/en/
-  - name: CNR-IEIIT
-    url: https://www.ieiit.cnr.it/it/
+#organizations:
+#  - name: Aitek S.p.A.
+#    url: https://www.aitek.it/en/
+#  - name: CNR-IEIIT
+#    url: https://www.ieiit.cnr.it/it/
         
 
 # Social network links

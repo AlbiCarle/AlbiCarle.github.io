@@ -37,8 +37,8 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    #logo:
-    #  text: "Alberto Carlevaro"
+    logo:
+      text: "Alberto Carlevaro" 
 
 # Site footer
 footer:
