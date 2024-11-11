@@ -1,10 +1,6 @@
 ---
 # Display name
-#title: Alberto Carlevaro
-
-<div class="title-container">
-  <h1>Alberto Carlevaro</h1>
-</div>
+title: Alberto Carlevaro
 
 # Ricordati che se vuoi mettere un avatar come immagine del profile bastare aggiumgere un crop quadrato nella cartella admin salvato come avatar.jpg
 
