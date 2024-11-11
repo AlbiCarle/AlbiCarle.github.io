@@ -1,7 +1,7 @@
 ---
 # Display name
-title: Alberto Carlevaro
 
+title: Alberto Carlevaro
 # Ricordati che se vuoi mettere un avatar come immagine del profile bastare aggiumgere un crop quadrato nella cartella admin salvato come avatar.jpg
 
 # Name pronunciation (optional)
