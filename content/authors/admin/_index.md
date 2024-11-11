@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Welcome to my 
+title: Alberto Carlevaro
 
 # Ricordati che se vuoi mettere un avatar come immagine del profile bastare aggiumgere un crop quadrato nella cartella admin salvato come avatar.jpg
 
@@ -22,14 +22,14 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-#role: "<strong style='color:black; font-size: 1.5em;'>R&D Project Manager<br>and<br>AI Researcher</strong>"
+role: "<strong style='color:black; font-size: 1.5em;'>R&D Project Manager<br>and<br>AI Researcher</strong>"
  #R&D Project Manager and Researcher in Trustworthy AI
 # Organizations/Affiliations to display in Biography blox
 #organizations:
-#  - name: Aitek S.p.A.
-#    url: https://www.aitek.it/en/
-#  - name: CNR-IEIIT
-#    url: https://www.ieiit.cnr.it/it/
+  - name: Aitek S.p.A.
+    url: https://www.aitek.it/en/
+  - name: CNR-IEIIT
+    url: https://www.ieiit.cnr.it/it/
         
 
 # Social network links
