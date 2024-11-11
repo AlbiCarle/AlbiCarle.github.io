@@ -50,7 +50,7 @@ profiles:
     url: https://scholar.google.com/citations?user=R5q17HMAAAAJ&hl=it&oi=ao
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-7206-5511
-  - icon: cv # Replace with a suitable icon name or path to your custom icon
+  - icon: CV # Replace with a suitable icon name or path to your custom icon
     url: uploads/resume.pdf
     label: Download CV
 
