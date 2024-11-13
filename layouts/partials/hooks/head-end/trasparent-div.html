@@ -1,23 +1,19 @@
+<div id="profile"></div>
+
 <script async defer>
     document.addEventListener("DOMContentLoaded", function() {
-        // Select the theme toggle button
-        const themeToggleButton = document.querySelector('.theme-toggle');
-
-        // Check if the button exists
-        if (themeToggleButton) {
-            // Get the value of the data-theme attribute
-            const currentTheme = themeToggleButton.getAttribute('data-theme');
-            console.log("Current Theme:", currentTheme);  // Logs 'dark' or 'light'
-            
-            // Get the div with id 'profile' and set its background color
-            const profileDiv = document.getElementById('profile');
-            if (profileDiv) {
-                if (currentTheme === "dark") {
-                    profileDiv.style.backgroundColor = "rgba(0, 0, 0, 0.6)";  // Dark mode
-                } else {
-                    profileDiv.style.backgroundColor = "rgba(255, 255, 255, 0.6)";  // Light mode
-                }
-            }
+        const profileDiv = document.getElementById('profile');
+        
+        // Function to set background color based on color scheme
+        function setBackgroundColor() {
+            const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            profileDiv.style.backgroundColor = isDarkMode ? "rgba(0, 0, 0, 0.6)" : "rgba(255, 255, 255, 0.6)";
         }
+
+        // Initial setup
+        setBackgroundColor();
+
+        // Listen for changes in the system color scheme
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", setBackgroundColor);
     });
 </script>
