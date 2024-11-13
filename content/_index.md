@@ -34,11 +34,14 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: ''
+      title: '📚 My Research'
       subtitle: ''
       text: |-
-      I am a passionate mathematician with a strong focus on machine learning applications for both scientific research and industrial innovation. In recent years, I have been dedicated to bridging mathematical theory and practical AI solutions, promoting scientific advances in areas such as computer vision, adversarial machine learning, and robust AI systems. My current line of research is in Trustworthy AI, with a special focus on conformal prediction (CP) and eXplainable AI (XAI).  I am especially interested in applying these techniques to industrial challenges in computer vision and cyber-physical systems (CPS), where reliability and interpretability are crucial.
-      
+       Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+
+       I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        
+       Please reach out to collaborate 😃
     design:
       columns: '1'
   - block: collection
