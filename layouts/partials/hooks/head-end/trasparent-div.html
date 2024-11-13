@@ -1,55 +1,9 @@
-<div id="profile" data-mode="{{ .Site.Params.appearance.mode }}"></div>
-
 <script async defer>
     document.addEventListener("DOMContentLoaded", function() {
-        const profileDiv = document.getElementById('profile');
-        const mode = profileDiv.dataset.mode; // From params.yaml (system, dark, light)
-        const themeToggleButton = document.querySelector('.theme-toggle'); // Theme toggle button
-        
-        // Function to set background color based on the theme (dark or light)
-        function setBackgroundColor(isDarkMode) {
-            profileDiv.style.backgroundColor = isDarkMode ? "rgba(0, 0, 0, 0.6)" : "rgba(255, 255, 255, 0.6)";
-        }
-
-        // Function to check the current theme (from button or system preference)
-        function getCurrentTheme() {
-            // Check if the button has the 'data-theme' attribute set to 'dark' or 'light'
-            const buttonTheme = themeToggleButton ? themeToggleButton.dataset.theme : "light";
-
-            if (mode === "dark") {
-                return true; // Force dark mode
-            } else if (mode === "light") {
-                return false; // Force light mode
-            } else if (mode === "system") {
-                // For system mode, use system preference
-                return window.matchMedia("(prefers-color-scheme: dark)").matches;
-            } else {
-                // Default to light if nothing is set
-                return buttonTheme === "dark";
-            }
-        }
-
-        // Set the initial background color based on the current theme
-        const isDarkMode = getCurrentTheme();
-        setBackgroundColor(isDarkMode);
-
-        // If in 'system' mode, listen for system preference changes
-        if (mode === "system") {
-            window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function() {
-                setBackgroundColor(window.matchMedia("(prefers-color-scheme: dark)").matches);
-            });
-        }
-
-        // Listen for theme toggle button clicks and update background color dynamically
-        if (themeToggleButton) {
-            themeToggleButton.addEventListener("click", function() {
-                // Toggle the theme in the button's data attribute
-                const newTheme = themeToggleButton.dataset.theme === "dark" ? "light" : "dark";
-                themeToggleButton.dataset.theme = newTheme;
-
-                // Update the background color based on the new theme
-                setBackgroundColor(newTheme === "dark");
-            });
-        }
+        const divs = document.querySelectorAll('#profile');
+        console.log("divs", divs)
+        divs.forEach(div => {
+            div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
+        });
     });
 </script>
