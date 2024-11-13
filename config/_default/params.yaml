@@ -7,10 +7,6 @@
 appearance:
   mode: system
   color: emerald
-  #theme_default: light
-  #theme_default: dark
-  #theme_day: minimal
-  #theme_night: minimal
 
 # SEO
 marketing:

@@ -1,10 +1,36 @@
+
+<div id="profile" data-mode="{{ .Site.Params.appearance.mode }}"></div>
 <script async defer>
     document.addEventListener("DOMContentLoaded", function() {
         const divs = document.querySelectorAll('#profile');
-        console.log("divs", divs)
-        divs.forEach(div => {
-            div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
-        });
+        const mode = divs[0].dataset.mode; // Get appearance mode from data attribute
+
+        function setBackgroundColor() {
+            let isDarkMode;
+
+            // Determine the mode based on 'appearance.mode'
+            if (mode === "dark") {
+                isDarkMode = true;
+            } else if (mode === "light") {
+                isDarkMode = false;
+            } else {
+                // For 'system' mode, check system preference
+                isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            }
+
+            // Set background color based on the mode
+            divs.forEach(div => {
+                div.style.backgroundColor = isDarkMode ? "rgba(0, 0, 0, 0.6)" : "rgba(255, 255, 255, 0.6)";
+            });
+        }
+
+        // Initial background color setup
+        setBackgroundColor();
+
+        // If in 'system' mode, listen for system color scheme changes
+        if (mode === "system") {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", setBackgroundColor);
+        }
     });
 </script>
 
