@@ -1,9 +1,9 @@
-
 <div id="profile" data-mode="{{ .Site.Params.appearance.mode }}"></div>
 <script async defer>
     document.addEventListener("DOMContentLoaded", function() {
         const divs = document.querySelectorAll('#profile');
         const mode = divs[0].dataset.mode; // Get appearance mode from data attribute
+        console.log("divs", mode)
 
         function setBackgroundColor() {
             let isDarkMode;
@@ -20,7 +20,7 @@
 
             // Set background color based on the mode
             divs.forEach(div => {
-                div.style.backgroundColor = isDarkMode ? "rgba(0, 0, 0, 0.6)" : "rgba(255, 255, 255, 0.6)";
+                div.style.backgroundColor = isDarkMode ? "rgba(0, 0, 0, 0.6)" : "rgba(0, 0, 0, 0.6)";
             });
         }
 
