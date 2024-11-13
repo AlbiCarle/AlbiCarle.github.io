@@ -1,19 +1,9 @@
-<div id="profile"></div>
-
 <script async defer>
-    document.addEventListener("DOMContentLoaded", function() {
-        const profileDiv = document.getElementById('profile');
-        console.log('ciao')
-        // Function to set background color based on color scheme
-        function setBackgroundColor() {
-            const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-            profileDiv.style.backgroundColor = isDarkMode ? "rgba(0, 0, 0, 0.6)" : "rgba(255, 255, 255, 0.6)";
-        }
+// Select the <html> element
+const htmlElement = document.documentElement;
 
-        // Initial setup
-        setBackgroundColor();
+// Get the color-scheme value from the inline style
+const colorScheme = htmlElement.style.getPropertyValue('color-scheme');
 
-        // Listen for changes in the system color scheme
-        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", setBackgroundColor);
-    });
+console.log(colorScheme); // Output: "dark"
 </script>
