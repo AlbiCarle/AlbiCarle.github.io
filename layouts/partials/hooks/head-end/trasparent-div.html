@@ -6,4 +6,18 @@ const htmlElement = document.documentElement;
 const colorScheme = htmlElement.style.getPropertyValue('color-scheme');
 
 console.log("color-scheme", colorScheme); // Output: "dark"
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const divs = document.querySelectorAll('#profile');
+        console.log("divs", divs)
+        divs.forEach(div => {
+            if (colorScheme === "light") {
+                div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
+            } 
+            else { 
+                div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
+            }
+        });
+    });
+
 </script>
