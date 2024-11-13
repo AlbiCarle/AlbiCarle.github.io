@@ -10,12 +10,13 @@ console.log("color-scheme-ciao", colorScheme); // Output: "dark"
 document.addEventListener("DOMContentLoaded", function() {
     const divs = document.querySelectorAll('#profile');
     console.log("divs", divs)
+    console.log(colorScheme)
     divs.forEach(div => {
         if (colorScheme === "light") {
             div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
         } 
         else { 
-            div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
+            div.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
         }
     });
 });
