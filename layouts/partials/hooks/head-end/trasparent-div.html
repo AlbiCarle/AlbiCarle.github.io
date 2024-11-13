@@ -1,36 +1,55 @@
 <div id="profile" data-mode="{{ .Site.Params.appearance.mode }}"></div>
+
 <script async defer>
     document.addEventListener("DOMContentLoaded", function() {
-        const divs = document.querySelectorAll('#profile');
-        const mode = divs[0].dataset.mode; // Get appearance mode from data attribute
-        console.log("divs", mode)
+        const profileDiv = document.getElementById('profile');
+        const mode = profileDiv.dataset.mode; // From params.yaml (system, dark, light)
+        const themeToggleButton = document.querySelector('.theme-toggle'); // Theme toggle button
+        
+        // Function to set background color based on the theme (dark or light)
+        function setBackgroundColor(isDarkMode) {
+            profileDiv.style.backgroundColor = isDarkMode ? "rgba(0, 0, 0, 0.6)" : "rgba(255, 255, 255, 0.6)";
+        }
 
-        function setBackgroundColor() {
-            let isDarkMode;
+        // Function to check the current theme (from button or system preference)
+        function getCurrentTheme() {
+            // Check if the button has the 'data-theme' attribute set to 'dark' or 'light'
+            const buttonTheme = themeToggleButton ? themeToggleButton.dataset.theme : "light";
 
-            // Determine the mode based on 'appearance.mode'
             if (mode === "dark") {
-                isDarkMode = true;
+                return true; // Force dark mode
             } else if (mode === "light") {
-                isDarkMode = false;
+                return false; // Force light mode
+            } else if (mode === "system") {
+                // For system mode, use system preference
+                return window.matchMedia("(prefers-color-scheme: dark)").matches;
             } else {
-                // For 'system' mode, check system preference
-                isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                // Default to light if nothing is set
+                return buttonTheme === "dark";
             }
+        }
 
-            // Set background color based on the mode
-            divs.forEach(div => {
-                div.style.backgroundColor = isDarkMode ? "rgba(0, 0, 0, 0.6)" : "rgba(0, 0, 0, 0.6)";
+        // Set the initial background color based on the current theme
+        const isDarkMode = getCurrentTheme();
+        setBackgroundColor(isDarkMode);
+
+        // If in 'system' mode, listen for system preference changes
+        if (mode === "system") {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function() {
+                setBackgroundColor(window.matchMedia("(prefers-color-scheme: dark)").matches);
             });
         }
 
-        // Initial background color setup
-        setBackgroundColor();
+        // Listen for theme toggle button clicks and update background color dynamically
+        if (themeToggleButton) {
+            themeToggleButton.addEventListener("click", function() {
+                // Toggle the theme in the button's data attribute
+                const newTheme = themeToggleButton.dataset.theme === "dark" ? "light" : "dark";
+                themeToggleButton.dataset.theme = newTheme;
 
-        // If in 'system' mode, listen for system color scheme changes
-        if (mode === "system") {
-            window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", setBackgroundColor);
+                // Update the background color based on the new theme
+                setBackgroundColor(newTheme === "dark");
+            });
         }
     });
 </script>
-
