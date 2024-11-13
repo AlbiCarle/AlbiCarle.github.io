@@ -5,19 +5,19 @@ const htmlElement = document.documentElement;
 // Get the color-scheme value from the inline style
 const colorScheme = htmlElement.style.getPropertyValue('color-scheme');
 
-console.log("color-scheme", colorScheme); // Output: "dark"
+console.log("color-scheme-ciao", colorScheme); // Output: "dark"
 
-    document.addEventListener("DOMContentLoaded", function() {
-        const divs = document.querySelectorAll('#profile');
-        console.log("divs", divs)
-        divs.forEach(div => {
-            if (colorScheme === "light") {
-                div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
-            } 
-            else { 
-                div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
-            }
-        });
+document.addEventListener("DOMContentLoaded", function() {
+    const divs = document.querySelectorAll('#profile');
+    console.log("divs", divs)
+    divs.forEach(div => {
+        if (colorScheme === "light") {
+            div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
+        } 
+        else { 
+            div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
+        }
     });
+});
 
 </script>
