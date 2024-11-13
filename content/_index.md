@@ -34,7 +34,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: ''
       subtitle: ''
       text: |-
       I am a passionate mathematician with a strong focus on machine learning applications for both scientific research and industrial innovation. In recent years, I have been dedicated to bridging mathematical theory and practical AI solutions, promoting scientific advances in areas such as computer vision, adversarial machine learning, and robust AI systems. My current line of research is in Trustworthy AI, with a special focus on conformal prediction (CP) and eXplainable AI (XAI).  I am especially interested in applying these techniques to industrial challenges in computer vision and cyber-physical systems (CPS), where reliability and interpretability are crucial.
