@@ -1,9 +1,23 @@
 <script async defer>
     document.addEventListener("DOMContentLoaded", function() {
-        const divs = document.querySelectorAll('#profile');
-        console.log("divs", divs)
-        divs.forEach(div => {
-            div.style.backgroundColor = "rgba(255, 255, 255, 0.6)";
-        });
+        // Select the theme toggle button
+        const themeToggleButton = document.querySelector('.theme-toggle');
+
+        // Check if the button exists
+        if (themeToggleButton) {
+            // Get the value of the data-theme attribute
+            const currentTheme = themeToggleButton.getAttribute('data-theme');
+            console.log("Current Theme:", currentTheme);  // Logs 'dark' or 'light'
+            
+            // Get the div with id 'profile' and set its background color
+            const profileDiv = document.getElementById('profile');
+            if (profileDiv) {
+                if (currentTheme === "dark") {
+                    profileDiv.style.backgroundColor = "rgba(0, 0, 0, 0.6)";  // Dark mode
+                } else {
+                    profileDiv.style.backgroundColor = "rgba(255, 255, 255, 0.6)";  // Light mode
+                }
+            }
+        }
     });
 </script>
