@@ -45,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: '/workspaces/iamalbertocarlevaro/static/A_New_SVDD_Approach_to_Reliable_and_Explainable_AI.pdf'
+url_pdf: 'uploads/A_New_SVDD_Approach_to_Reliable_and_Explainable_AI.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
