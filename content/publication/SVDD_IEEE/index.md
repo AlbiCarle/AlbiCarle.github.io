@@ -34,8 +34,8 @@ abstract: Safety engineering and artificial intelligence are two fields that sti
 # Summary. An optional shortened abstract.
 summary: Original SVVD approach for the control of false positives in machine learning classification.
 
-tags:
-  - Misclassification error control
+#tags:
+#  - Misclassification error control
 
 # Display this page in the Featured widget?
 featured: true

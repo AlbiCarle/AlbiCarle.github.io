@@ -1,11 +1,13 @@
 ---
-title: 'Counterfactual evaluation'
+title: 'Counterfactual Building and Evaluation via eXplainable Support Vector Data Description'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
+  - Marta Lenatti
+  - Alessia Paglialonga
   - Maurizio Mongelli
 
 # Author notes (optional)
@@ -13,11 +15,11 @@ authors:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2022-04-01T00:00:00Z'
-doi: '10.1109/MIS.2021.3123669'
+date: '2022-05-01T00:00:00Z'
+doi: '0.1109/ACCESS.2022.3180026'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-04-01T00:00:00Z'
+publishDate: '2022-05-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,17 +27,27 @@ publishDate: '2022-04-01T00:00:00Z'
 publication_types: ['journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Intelligent Systems*
+publication: In *IEEE Acces*
 publication_short: In *IEEE*
 
-abstract: Safety engineering and artificial intelligence are two fields that still need investigation on their reciprocal interactions. Safety should be guaranteed when autonomous decision may lead to risk for the environment and the human. The present work addresses how support vector data description (SVDD) can be redesigned to detect safety regions in a cyber-physical system with zero statistical error. Rule-based knowledge extraction is also presented, to let the SVDD be understandable. Two applications are considered for performance evaluation, (i) domain name server tunneling detection and (ii) region of attraction estimation of dynamic systems. Results demonstrate how the new SVDD and its intelligible representation are both suitable in designing safety regions, still maximizing the space of the working conditions.
+abstract: Increasingly in recent times, the mere prediction of a machine learning algorithm is considered
+insufficient to gain complete control over the event being predicted. A machine learning algorithm should
+be considered reliable in the way it allows to extract more knowledge and information than just having
+a prediction at hand. In this perspective, the counterfactual theory plays a central role. By definition,
+a counterfactual is the smallest variation of the input such that it changes the predicted behaviour. The paper
+addresses counterfactuals through Support Vector Data Description (SVDD), empowered by explainability
+and metric for assessing the counterfactual quality. After showing the specific case in which an analytical
+solution may be found (under Euclidean distance and linear kernel), an optimisation problem is posed for any
+type of distances and kernels. The vehicle platooning application is the use case considered to demonstrate
+how the outlined methodology may offer support to safety-critical applications as well as how explanation
+may shed new light into the control of the system at hand.
 
 
 # Summary. An optional shortened abstract.
-summary: Original SVVD approach for the control of false positives in machine learning classification.
+summary: Construction of counterfactual explanations for SVDD-based binary classification.
 
 tags:
-  - Misclassification error control
+  #- Misclassification error control
 
 # Display this page in the Featured widget?
 featured: true
@@ -45,13 +57,13 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'uploads/paperCounterfactual.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://ieeexplore.ieee.org/document/9594676'
+url_source: 'https://ieeexplore.ieee.org/document/9787552'
 url_video: ''
 
 # Featured image
@@ -76,13 +88,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
