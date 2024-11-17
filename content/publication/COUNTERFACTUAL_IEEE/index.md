@@ -42,7 +42,6 @@ type of distances and kernels. The vehicle platooning application is the use cas
 how the outlined methodology may offer support to safety-critical applications as well as how explanation
 may shed new light into the control of the system at hand.
 
-
 # Summary. An optional shortened abstract.
 summary: Construction of counterfactual explanations for SVDD-based binary classification.
 
