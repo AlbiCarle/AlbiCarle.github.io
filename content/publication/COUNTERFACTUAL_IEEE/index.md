@@ -6,8 +6,6 @@ title: 'Counterfactual Building and Evaluation via eXplainable Support Vector Da
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Marta Lenatti
-  - Alessia Paglialonga
   - Maurizio Mongelli
 
 # Author notes (optional)
