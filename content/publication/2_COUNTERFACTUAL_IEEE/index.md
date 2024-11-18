@@ -31,9 +31,7 @@ publication: In *IEEE Acces*
 publication_short: In *IEEE*
 
 abstract: Increasingly in recent times, the mere prediction of a machine learning algorithm is considered
-insufficient to gain complete control over the event being predicted. A machine learning algorithm should
-be considered reliable in the way it allows to extract more knowledge and information than just having
-a prediction at hand. 
+insufficient to gain complete control over the event being predicted. 
 
 
 # Summary. An optional shortened abstract.
@@ -62,7 +60,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 
