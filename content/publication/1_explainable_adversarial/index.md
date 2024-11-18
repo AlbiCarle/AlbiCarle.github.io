@@ -1,5 +1,5 @@
 ---
-title: 'Counterfactual Building and Evaluation via eXplainable Support Vector Data Description'
+title: 'eXplainable and Reliable Against Adversarial Machine Learning in Data Analytics'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
