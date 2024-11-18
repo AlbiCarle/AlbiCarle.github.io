@@ -30,8 +30,8 @@ publication_types: ['journal']
 publication: In *IEEE Acces*
 publication_short: In *IEEE*
 
-abstract: Increasingly in recent times, the mere prediction of a machine learning algorithm is considered insufficient to gain complete control over the event being predicted. 
-
+abstract: Increasingly in recent times, the mere prediction of a machine learning algorithm is considered insufficient to gain complete control over the event being predicted. A machine learning algorithm should be considered reliable in the way it allows to extract more knowledge and information than just having a prediction at hand. In this perspective, the counterfactual theory plays a central role. By definition, a counterfactual is the smallest variation of the input such that it changes the predicted behaviour. The paper addresses counterfactuals through Support Vector Data Description (SVDD), empowered by explainability and metric for assessing the counterfactual quality. After showing the specific case in which an analytical solution may be found (under Euclidean distance and linear kernel), an optimisation problem is posed for any type of distances and kernels. The vehicle platooning application is the use case considered to demonstrate how the outlined methodology may offer support to safety-critical applications as well as how explanation may shed new light into the control of the system at hand.
+ 
 # Summary. An optional shortened abstract.
 summary: Construction of counterfactual explanations for SVDD-based binary classification.
 
