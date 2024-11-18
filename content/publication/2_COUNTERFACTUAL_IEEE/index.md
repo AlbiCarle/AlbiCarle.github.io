@@ -30,9 +30,7 @@ publication_types: ['journal']
 publication: In *IEEE Acces*
 publication_short: In *IEEE*
 
-abstract: Increasingly in recent times, the mere prediction of a machine learning algorithm is considered
-insufficient to gain complete control over the event being predicted. 
-
+abstract: Increasingly in recent times, the mere prediction of a machine learning algorithm is considered insufficient to gain complete control over the event being predicted. 
 
 # Summary. An optional shortened abstract.
 summary: Construction of counterfactual explanations for SVDD-based binary classification.
