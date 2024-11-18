@@ -31,7 +31,7 @@ publication_short: In *IEEE*
 abstract: ciao
 
 # Summary. An optional shortened abstract.
-summary: Construction of counterfactual explanations for SVDD-based binary classification.
+summary: Research survey on the use of explainable AI techniques to deal with adversarial machine learning.
 
 #tags:
   #- Misclassification error control
