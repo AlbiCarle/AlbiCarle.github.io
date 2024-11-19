@@ -66,7 +66,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Hype stuff
+      title: ''#Hype stuff
       filters:
         folders:
           - event
