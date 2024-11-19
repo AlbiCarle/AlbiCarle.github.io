@@ -1,5 +1,5 @@
 ---
-title: Hype Stuff
+title: ''
 cms_exclude: true
 url: talk
 

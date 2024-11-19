@@ -10,7 +10,7 @@ main:
   - name: Papers
     url: /#papers
     weight: 11
-  - name: Hype Stuff
+  - name: ''
     url: /#talks
     weight: 12
   #- name: News
