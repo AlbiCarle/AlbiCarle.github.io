@@ -10,7 +10,7 @@ main:
   - name: Selected publications
     url: /#papers
     weight: 11
-  - name: 'About me'
+  - name: ''
     url: /#talks
     weight: 12
   #- name: News
