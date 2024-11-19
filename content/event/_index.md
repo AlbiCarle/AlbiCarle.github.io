@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Hype Stuff
 cms_exclude: true
 #url: talk
 
