@@ -37,8 +37,8 @@ sections:
       title: ''
       subtitle: ''
       text: |-
-      You can check my profile on [GitHub](https://github.com/).
-       
+       [Aitek S.p.A.](https://www.aitek.it/en/)
+
     design:
       columns: '1'
   - block: collection
