@@ -4,7 +4,7 @@ cms_exclude: true
 #url: talk
 
 # View
-view: gallery
+view: grid #gallery
 
 # Optional cover image (relative to `assets/media/` folder).
 image:
