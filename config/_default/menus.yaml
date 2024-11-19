@@ -7,10 +7,10 @@ main:
   - name: ''
     url: /
     weight: 10
-  - name: Papers
+  - name: Selected publications
     url: /#papers
     weight: 11
-  - name: ''
+  - name: 'About me'
     url: /#talks
     weight: 12
   #- name: News
