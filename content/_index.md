@@ -51,7 +51,7 @@ sections:
           - publication
         featured_only: false
     design:
-      view: article-grid
+      view: grid
       columns: '1'
   #- block: collection
   #  content:
