@@ -26,7 +26,7 @@ sections:
         #  color: black  # Set text color to black
         image:
           # Add your image background to `assets/media/`.
-          filename: IMG_8704_v1.jpeg #stacked-peaks.svg
+          filename: ponte.png #IMG_8704_v1.jpeg #stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
