@@ -18,7 +18,7 @@ authors:
 #  - 'Equal contribution'
 
 date: '2022-11-01T00:00:00Z'
-doi: '0.1109/ACCESS.2022.3180026'
+doi: 'https://doi.org/10.1371/journal.pone.0272825'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2022-11-01T00:00:00Z'
