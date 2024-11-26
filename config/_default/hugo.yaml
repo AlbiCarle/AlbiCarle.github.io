@@ -6,7 +6,7 @@
 # Website name
 title: Alberto Carlevaro
 # Website URL
-baseURL: 'https://albicarle.github.io/iamalbertocarlevaro/' #'https://example.com/'
+baseURL: 'https://iamalbertocarlevaro.github.io' #'https://example.com/'
 
 ############################
 ## LANGUAGE
