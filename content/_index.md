@@ -43,7 +43,7 @@ sections:
 
        Proficient in Python and MATLAB.
 
-       If you'd like to get in touch please leave a message in Italian🇮🇹 or English🇺🇸 ! Ciao
+       If you'd like to get in touch please leave a message in Italian🇮🇹 or English🇺🇸 ! 
 
     design:
       columns: '1'
