@@ -37,13 +37,20 @@ sections:
       title: ''
       subtitle: ''
       text: |-
-       I am a passionate mathematician with a strong focus on applications of machine learning for both scientific research and industrial innovation. At the University of Genoa (<a href="https://unige.it/en" target="_blank">UNIGE</a>), I graduated in 2020 with a master's degree in applied mathematics from the Department of Mathematics (<a href="https://dima.unige.it/" target="_blank">DIMA</a>) and later in 2024 I received my Ph.D. in computer science from the Department of Electrical, Electronic and Telecommunications Engineering (<a href="https://diten.unige.it/en" target="_blank">DITEN</a>). Until recently I was also a visiting researcher in the Electrical Engineering and Computer Science (<a href="https://eecs.berkeley.edu/" target="_blank">EECS</a>) department at <a href="https://www.berkeley.edu/" target="_blank">UC Berkeley</a>. My current research is on Trustworthy Artificial Intelligence (TAI), focusing especially on Reliable Machine Learning, Robust and Adversarial Machine Learning and Uncertainty Quantification (e.g. Conformal Prediction and Order Statistics). During my Ph.D., I also got interested in machine learning for science, particularly the use of Physics-Informed Neural Networks (PINNs) for learning missing dynamics and model discrepancy.
-       
-       In July 2024, I got hired from <a href="https://www.aitek.it/en/" target="_blank">Aitek S.p.A.</a> where I manage industrial research projects in the areas of computer vision, logistics and innovation of critical infrastructures such as ports and highways. Meanwhile, I am also a research fellow at the Institute of Electronics and Information and Telecommunications Engineering of the National Council of Research of Italy (<a href="https://www.ieiit.cnr.it/it/" target="_blank">CNR-IEIIT</a>).
+       I am a mathematician and computer scientist working at the intersection of machine learning, trustworthy artificial intelligence, and scientific and industrial applications.
+
+       I graduated from the University of Genoa (<a href="https://unige.it/en" target="_blank">UNIGE</a>) in 2020 with a Master's degree in Applied Mathematics from the Department of Mathematics (<a href="https://dima.unige.it/" target="_blank">DIMA</a>). In 2024, I received my Ph.D. in Science and Technology for Electronic and Telecommunication Engineering from the Department of Electrical, Electronic and Telecommunications Engineering (<a href="https://diten.unige.it/en" target="_blank">DITEN</a>), where my research focused on mathematical methods for explainable and reliable machine learning. From 2023 to 2024, I was a Visiting Research Scholar in the Electrical Engineering and Computer Sciences (<a href="https://eecs.berkeley.edu/" target="_blank">EECS</a>) department at <a href="https://www.berkeley.edu/" target="_blank">UC Berkeley</a>, working with Prof. Alberto Sangiovanni Vincentelli on Physics-Informed Machine Learning and the integration of physical knowledge into data-driven models.
+
+       My current academic research focuses on Trustworthy Artificial Intelligence (TAI), with particular emphasis on Reliable Machine Learning, Robust and Adversarial Machine Learning, and Uncertainty Quantification, including Conformal Prediction and Order Statistics. I am also interested in Machine Learning for Science, particularly Physics-Informed Neural Networks (PINNs) and their application to learning unknown dynamics and modelling discrepancies between physical models and observed data.
+
+       Alongside my academic research, I have developed substantial experience in publicly funded research and industrial innovation. Since July 2024, I have been working as a Research Project Manager and AI Researcher at <a href="https://www.aitek.it/en/" target="_blank">Aitek S.p.A.</a>, where I contribute to the development and management of funded research projects involving Artificial Intelligence, computer vision, logistics, and the digital transformation of critical infrastructures such as ports and road networks. My work includes research proposal development, project management, coordination with academic and industrial partners, and technical research activities. I am also a researcher at the Institute of Electronics and Information and Telecommunications Engineering (<a href="https://www.ieiit.cnr.it/it/" target="_blank">CNR-IEIIT</a>) of the National Research Council of Italy.
+
+       I am particularly interested in research that connects rigorous mathematical methods with real-world AI systems, bridging academic research, competitive research funding, and industrial applications.
 
        Proficient in Python and MATLAB.
 
-       If you'd like to get in touch please leave a message in Italian🇮🇹 or English🇺🇸 ! 
+       If you'd like to get in touch, feel free to send me a message in Italian 🇮🇹 or English 🇺🇸.
+ 
 
     design:
       columns: '1'
